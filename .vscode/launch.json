@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/user/Documents/GitHub/Object-Oriented-Programming-Spring-2026/C++",
-      "program": "c:/Users/user/Documents/GitHub/Object-Oriented-Programming-Spring-2026/C++/build/Debug/outDebug",
+      "cwd": "c:/Users/user/Documents/GitHub/Object-Oriented-Programming-Spring-2026/Library-Managment-System",
+      "program": "c:/Users/user/Documents/GitHub/Object-Oriented-Programming-Spring-2026/Library-Managment-System/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

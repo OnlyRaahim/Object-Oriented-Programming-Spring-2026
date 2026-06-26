@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Library.h"
+#include "Library.h" 
 #include "Template.h"
 
 using namespace std;
@@ -25,8 +25,12 @@ int main()
         cout << "0. Exit\n";
 
         cout << "Enter choice: ";
-        cin >> choice;
-
+        while (!(cin >> choice)) {
+            cout << "Invalid choice\n";
+            cin.clear();
+            cin.ignore();
+            continue;
+        }
         switch (choice)
         {
         case 1:
@@ -64,6 +68,7 @@ int main()
 
         default:
             cout << "Invalid choice!\n";
+            break;
         }
 
     } while (choice != 0);
