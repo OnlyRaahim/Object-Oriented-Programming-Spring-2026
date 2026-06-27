@@ -1,25 +1,24 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-
-	int a, b, c, temp;
-
-	int *pqa = &a;
-	int *pqb = &b;
-	int *pqc = &c;
-	
-	cout<<"Enter the value of a b c: "<<endl;
-	cin>>a>>b>>c;
-	
-	cout<<a<<" "<<b<<" "<<c<<endl;
-	
-	temp = *pqa;
-	*pqa = *pqb;
-	*pqb = *pqc;
-	*pqc = temp;
-	
-	cout<<a<<" "<<b<<" "<<c<<endl;
-	
-	return 0;
+int main (){
+    int a,b,c;
+    
+    cout<<"Enter three numbers"<<endl;
+    cin>>a>>b>>c;
+    
+    int *p1=&a;
+    int *p2=&b;
+    int *p3=&c;
+    
+    cout<<"Before swapping a ="<<a<<"b="<<b<<"c="<<c<<endl;
+    
+    int temp=a;
+    a=b;
+    b=c;
+    c=temp;
+    
+    cout<<"After swapping a ="<<a<<"b="<<b<<"c="<<c<<endl;
+    
+    return 0;
 }

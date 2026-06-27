@@ -14,15 +14,15 @@ float volSphere(float r){
 }
 
 int main(){
-	float r;
+	float radius;
 	cout<<"Enter the radius of sphere: "<<endl;
-	cin>>r;
+	cin>>radius;
 	
-	surfaceArea(r);
-	volSphere(r);
+	surfaceArea(radius);
+	volSphere(radius);
 	
-	cout<<"Surface Area of Sphere = "<<surfaceArea(r)<<endl;
-	cout<<"Volume of Sphere = "<<volSphere(r)<<endl;
+	cout<<"Surface Area of Sphere = "<<surfaceArea(radius)<<endl;
+	cout<<"Volume of Sphere = "<<volSphere(radius)<<endl;
 	
 	return 0;
 }
