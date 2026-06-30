@@ -39,15 +39,19 @@ class Student{
 
         if (s1.getsection()=='A')
             s1.display();
+            cout<<endl;
 
         if (s2.getsection()=='A')
             s2.display();
+            cout<<endl;
                     
         if (s3.getsection()=='A')
             s3.display();
+            cout<<endl;
         
         if (s4.getsection()=='A')
             s4.display();
+            cout<<endl;
         
 
         return 0;
