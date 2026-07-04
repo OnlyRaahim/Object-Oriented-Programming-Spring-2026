@@ -9,7 +9,7 @@ class Constant{
     Constant(int a){
         this->a=a;
     }
-    
+
     int non_const_func(){
         a=a+10;
         return a;
@@ -24,8 +24,8 @@ class Constant{
 int main(){
     
     Constant c1(20);
-    cout<<c1.const_func()<<endl;
-    cout<<c1.non_const_func()<<endl;
+    cout<<"Constant Function: "<<c1.const_func()<<endl;
+    cout<<"Non Constant Function: "<<c1.non_const_func()<<endl;
     
     return 0;
     

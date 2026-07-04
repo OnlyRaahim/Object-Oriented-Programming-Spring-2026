@@ -1,0 +1,8 @@
+# Executable files
+*.exe
+
+# VS Code temporary files
+tempCodeRunnerFile.*
+
+# Build folders
+build/

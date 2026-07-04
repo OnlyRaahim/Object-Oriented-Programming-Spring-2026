@@ -45,8 +45,11 @@ int main(){
     e3.setemployeeName("Asghar");
 
     cout<<"Employee 1 Name: "<<e1.getemployeeName()<<"\nEmployee 1 Id:"<<e1.getemployeeId()<<endl;
+    cout<<endl;
     cout<<"Employee 2 Name"<<e2.getemployeeName()<<"\nEmployee 2 Id:"<<e2.getemployeeId()<<endl;
+    cout<<endl;
     cout<<"Employee  3Name"<<e3.getemployeeName()<<"\nEmployee 3 Id:"<<e3.getemployeeId()<<endl;
-
+    cout<<endl;
+    
     return 0;
 }
