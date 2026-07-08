@@ -52,9 +52,9 @@ class PrivateInt:private Base{
     }
     
     void display(){
-        cout<<"Private Int: "<<getprivateInt()<<endl;
-        cout<<"Protected Int: "<<protectedInt<<endl;
-        cout<<"Public Int: "<<publicInt<<endl;
+        cout << "privateInt (via getter): " << getprivateInt() << endl;
+        cout << "protectedInt (direct access): " << protectedInt << endl;
+        cout << "publicInt (direct access): " << publicInt << endl;
     }
     
 };
@@ -68,10 +68,9 @@ class ProtectedInt:protected Base{
     }
     
     void display(){
-        cout<<"Private Int: "<<getprivateInt()<<endl;
-        cout<<"Protected Int: "<<protectedInt<<endl;
-        cout<<"Public Int: "<<publicInt<<endl;
-    }
+        cout << "privateInt (via getter): " << getprivateInt() << endl;
+        cout << "protectedInt (direct access): " << protectedInt << endl;
+        cout << "publicInt (direct access): " << publicInt << endl;}
     
 };
 
@@ -84,10 +83,9 @@ class PublicInt:public Base{
     }
     
     void display(){
-        cout<<"Private Int: "<<getprivateInt()<<endl;
-        cout<<"Protected Int: "<<protectedInt<<endl;
-        cout<<"Public Int: "<<publicInt<<endl;
-    }
+        cout << "privateInt (via getter): " << getprivateInt() << endl;
+        cout << "protectedInt (direct access): " << protectedInt << endl;
+        cout << "publicInt (direct access): " << publicInt << endl;}
     
 };
 
