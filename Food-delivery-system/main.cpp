@@ -299,6 +299,5 @@ int main()
     customer.logout();
 
     delete payment;
-
     return 0;
 }
