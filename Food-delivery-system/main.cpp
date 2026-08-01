@@ -3,8 +3,7 @@
 using namespace std;
 
 
-class User
-{
+class User{
 protected:
     int userID;
     string name;
