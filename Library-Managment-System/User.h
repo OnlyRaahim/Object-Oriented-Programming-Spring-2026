@@ -4,8 +4,7 @@
 #include <iostream>
 using namespace std;
 
-class User
-{
+class User{
 protected:
     int userID;
     string name;
@@ -19,5 +18,6 @@ public:
 
     virtual ~User() {}
 };
+
 
 #endif
