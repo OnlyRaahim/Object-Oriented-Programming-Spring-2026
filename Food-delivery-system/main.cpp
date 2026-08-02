@@ -29,8 +29,7 @@ public:
 };
 
 
-class FoodItem
-{
+class FoodItem{
 private:
     string name;
     double price;
