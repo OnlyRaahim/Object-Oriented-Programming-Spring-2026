@@ -1,0 +1,90 @@
+
+--Imtiaz Store--
+Total Bill: 1500
+Discount (7%): 105
+Final Bill: 1395
+
+--Imtiaz Store--
+Total Bill: 1500
+Discount (7%): 105
+Final Bill: 1395
+
+--Imtiaz Store--
+Total Bill: 2000
+Discount (7%): 140
+Final Bill: 1860
+
+--IBin Hashim Store--
+Total Bill: 2000
+Discount (7%): 140
+Final Bill: 1860
+
+--Imtiaz Store--
+Total Bill: 2000
+Discount (7%): 140
+Final Bill: 1860
+
+--IBin Hashim Store--
+Total Bill: 2000
+Discount (5%): 100
+Final Bill: 1900
+
+--Imtiaz Store--
+Total Bill: 3000
+Discount (7%): 210
+Final Bill: 2790
+
+--IBin Hashim Store--
+Total Bill: 3000
+Discount (5%): 150
+Final Bill: 2850
+
+--Imtiaz Store--
+Total Bill: 3000
+Discount (7%): 210
+Final Bill: 2790
+
+--IBin Hashim Store--
+Total Bill: 3000
+Discount (5%): 150
+Final Bill: 2850
+
+--Imtiaz Store--
+Total Bill: 4000
+Discount (7%): 280
+Final Bill: 3720
+
+--IBin Hashim Store--
+Total Bill: 4000
+Discount (5%): 200
+Final Bill: 3800
+
+--Imtiaz Store--
+Total Bill: 3500
+Discount (7%): 245
+Final Bill: 3255
+
+--IBin Hashim Store--
+Total Bill: 3500
+Discount (5%): 175
+Final Bill: 3325
+
+--Imtiaz Store--
+Total Bill: 5000
+Discount (7%): 350
+Final Bill: 4650
+
+--IBin Hashim Store--
+Total Bill: 5000
+Discount (5%): 250
+Final Bill: 4750
+
+--Imtiaz Store--
+Total Bill: 1
+Discount (7%): 0.07
+Final Bill: 0.93
+
+--IBin Hashim Store--
+Total Bill: 1
+Discount (5%): 0.05
+Final Bill: 0.95
