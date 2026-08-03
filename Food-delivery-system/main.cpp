@@ -26,11 +26,12 @@ public:
     {
         cout << name << " Logged Out.\n";
     }
-    
+
 };
 
 
 class FoodItem{
+    
 private:
     string name;
     double price;
