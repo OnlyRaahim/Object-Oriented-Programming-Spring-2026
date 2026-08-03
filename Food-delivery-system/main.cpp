@@ -31,7 +31,7 @@ public:
 
 
 class FoodItem{
-    
+
 private:
     string name;
     double price;
@@ -115,6 +115,7 @@ public:
     {
         cout << "Order is On the Way.\n";
     }
+    
 };
 
 
