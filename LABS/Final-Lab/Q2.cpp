@@ -54,7 +54,7 @@ void calculateBill(){
     cout<<"Final Bill: "<<finalBill<<endl;
 
     ofstream file("StoreRecord.txt",ios::app);
-    file<<"\n--IBin Hashim Store--"<<endl;
+    file<<"\n--Bin Hashim Store--"<<endl;
     file<<"Total Bill: "<<total_bill<<endl;
     file<<"Discount (5%): "<<discount<<endl;
     file<<"Final Bill: "<<finalBill<<endl;
